@@ -9,7 +9,6 @@ mkdir /sec
 
 echo " Diretórios criados"
 
-echo" "
 
 echo "Criando grupos de usuários..."
 
@@ -18,7 +17,6 @@ groupadd GRP_VEN
 groupadd GRP_SEC
 
 echo "Grupos criados"
-echo " "
 
 echo "Criando usuários..."
 
@@ -45,7 +43,7 @@ chmod 770 /ven
 chmod 770 /sec
 chmod 777 /publico
 
-echo " Finalizado..."
+echo " Finalizado projeto..."
 
 
 
